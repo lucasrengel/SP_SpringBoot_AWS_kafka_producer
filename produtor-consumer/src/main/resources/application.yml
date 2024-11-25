@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    consumer:
+      group-id: my-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    topic:
+      name: my-topic
+server:
+  port: 8082
